@@ -32,4 +32,16 @@ Brainstorming
 - the distance 'sab=sbc' between a-b-c should be equal (1 metre?)
 - a display for the current measurement would be nice
 - use a Seeduino (Arduino) as base-system
-- final PCB should be a Seeduino-Shield
+- final PCB should use a AVR
+- use IRQ
+- to measure 100 km/h with resolution of +/- 1 km/h
+  with 1 m sensordistance we need timeresolution of at least
+  1m /(100 km/h ) - 1m /(101 km/h ) = 0.35 ms 
+  it takes 3.6 seconds to go 1m at 1 km/h 
+- need to count more then 1..12000 (> 8 Bit)
+- perhaps external counter with parallel -> serial converter will help to 
+  count fast and precise.
+- wich photodiod to use? (BPW 82 is fast)
+- wich LASER to use? IR-Laserdiods are cheaper and invisible
+- how to adjust lower threshold for the photodiods?
+- should we use a pulsed light barrier and IR-filter? 
