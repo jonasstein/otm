@@ -1,10 +1,10 @@
-Open Traffic Control
+Open Traffic Monitor
 ====================
 
-Open Traffic Control (OTC) is a open hardware and 
-open source project to analyse traffic on roads.
+Open Traffic Monitor (OTM) is a open hardware and 
+open source project to monitor traffic on roads.
 
-Goals of OTC:
+Goals of OTM:
 
 - counting vehicles
 - measure speed of vehicles
@@ -16,10 +16,10 @@ Goals of OTC:
 
 Citizens claims about traffic situation are very subjective. 
 There are driving "too many vehicles too fast and too loud".
-Citizens' action committee can use OTC to collect data and 
+Citizens' action committee can use OTM to collect data and 
 use it to establish constructive actions based on facts.
 
-OTC will never substitute a official survey but it can provide
+OTM will never substitute a official survey but it can provide
 a good estimation in a pilot survey.
 
 Brainstorming
@@ -32,7 +32,6 @@ Brainstorming
 - the distance 'sab=sbc' between a-b-c should be equal (1 metre?)
 - a display for the current measurement would be nice
 - use a Seeduino (Arduino) as base-system
-- final PCB should use a AVR
 - use IRQ
 - to measure 100 km/h with resolution of +/- 1 km/h
   with 1 m sensordistance we need timeresolution of at least
@@ -45,3 +44,8 @@ Brainstorming
 - wich LASER to use? IR-Laserdiods are cheaper and invisible
 - how to adjust lower threshold for the photodiods?
 - should we use a pulsed light barrier and IR-filter? 
+
+Resources
+=========
+- http://www.seeedstudio.com/wiki/Project_Six_%E2%80%93_LCD_Demonstration
+- http://seeedstudio.com/wiki/SD_Card_Shield_v3.0
